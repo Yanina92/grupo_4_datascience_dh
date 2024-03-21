@@ -1,0 +1,111 @@
+<table style="width:100%">
+  <tr>
+    <th style="background:#F54DC2; color:white; font:oblique bold 120% cursive;">Magnitud</th>
+    <th style="background:#F5D94D; color:white; font:oblique bold 120% cursive;" colspan="4">Naive Bayes Complementario</th>
+    <th style="background:#F54DC2; color:white; font:oblique bold 120% cursive;" colspan="3">KNN Neighbors</th>
+    <th style="background:#F5D94D; color:white; font:oblique bold 120% cursive;" colspan="2">Regresión Logística</th>
+  </tr>
+  <tr>
+    <th style="background:#F9E2F2; font:oblique bold 100% cursive;" rowspan="4">Recall</th>
+    <th style="background:#FDFEFE; font:oblique bold 100% cursive;">Total Features</th>
+    <th style="background:#FDEFA9; font:oblique bold 100% cursive;">Stratified Shuffle Splits</th>
+    <th style="background:#FDFEFE; font:oblique bold 100% cursive;">Features menos relacionadas</th>
+    <th style="background:#FDEFA9; font:oblique bold 100% cursive;">Uniendo muertos y eutanasiados</th>
+    <th style="background:#FDFEFE; font:oblique bold 100% cursive;">Cross Validation</th>
+    <th style="background:#F9E2F2; font:oblique bold 100% cursive;">Grid Search</th>
+    <th style="background:#FDFEFE; font:oblique bold 100% cursive;">Grid Search más parámetros</th>
+    <th style="background:#FDEFA9; font:oblique bold 100% cursive;">Features mejor corr.</th>
+    <th style="background:#FDFEFE; font:oblique bold 100% cursive;">Total Features</th>
+  </tr>
+  <tr>
+    <td style="background:#FDFEFE;">V: 0.90</td>
+    <td style="background:#FDEFA9;">V: 0.90</td>
+    <td style="background:#FDFEFE;">V: 0.83</td>
+    <td style="background:#FDEFA9;">V: 0.81</td>
+    <td style="background:#FDFEFE;">V: 0.83</td>
+    <td style="background:#F9E2F2;">V: 0.89</td>
+    <td style="background:#FDFEFE;">V: 0.89</td>
+    <td style="background:#FDEFA9;">V: 0.78</td>
+    <td style="background:#FDFEFE;">V: 0.86</td>
+  </tr>
+  <tr>
+    <td style="background:#FDFEFE;">M: 0.74</td>
+    <td style="background:#FDEFA9;">M: 0.74</td>
+    <td style="background:#FDFEFE;">M: 0.74</td>
+    <td style="background:#FDEFA9;">NV: 0.83</td>
+    <td style="background:#FDFEFE;">M: 0.80</td>
+    <td style="background:#F9E2F2;">M: 0.80</td>
+    <td style="background:#FDFEFE;">M: 0.87</td>
+    <td style="background:#FDEFA9;">M: 0.93</td>
+    <td style="background:#FDFEFE;">M: 0.93</td>
+  </tr>
+  <tr>
+    <td style="background:#FDFEFE;">E: 0.20</td>
+    <td style="background:#FDEFA9;">E: 0.20</td>
+    <td style="background:#FDFEFE;">E: 0.20</td>
+    <td style="background:#FDEFA9;"> </td>
+    <td style="background:#FDFEFE;">E: 0.56</td>
+    <td style="background:#F9E2F2;">E: 0.44</td>
+    <td style="background:#FDFEFE;">E: 0.56</td>
+    <td style="background:#FDEFA9;">E: 0.44</td>
+    <td style="background:#FDFEFE;">E: 0.56</td>
+  </tr>
+  <tr>
+    <th style="background:#F9E2F2; font:oblique bold 100% cursive;">F1 Score</th>
+    <td style="background:#FDFEFE;">74.2%</td>
+    <td style="background:#FDEFA9;">74.2%</td>
+    <td style="background:#FDFEFE;">70.6%</td>
+    <td style="background:#FDEFA9;">82%</td>
+    <td style="background:#FDFEFE;">78.8%</td>
+    <td style="background:#F9E2F2;">79.2%</td>
+    <td style="background:#FDFEFE;">83%</td>
+    <td style="background:#FDEFA9;">76.2%</td>
+    <td style="background:#FDFEFE;">83.1%</td>
+  </tr>
+  <tr>
+    <th style="background:#F9E2F2; font:oblique bold 100% cursive;">Accuracy</th>
+    <td style="background:#FDFEFE;">76.2%</td>
+    <td style="background:#FDEFA9;">76.2%</td>
+    <td style="background:#FDFEFE;">71.4%</td>
+    <td style="background:#FDEFA9;">81.9%</td>
+    <td style="background:#FDFEFE;">78.3%</td>
+    <td style="background:#F9E2F2;">80%</td>
+    <td style="background:#FDFEFE;">83.3%</td>
+    <td style="background:#FDEFA9;">76.7%</td>
+    <td style="background:#FDFEFE;">83.3%</td>
+  </tr>
+  <tr>
+    <th style="background:#F9E2F2; font:oblique bold 100% cursive; vertical-align: top;" rowspan="3" valign="top">AUC</th>
+    <td style="background:#FDFEFE;">V: 0.91</td>
+    <td style="background:#FDEFA9;">V: 0.91</td>
+    <td style="background:#FDFEFE;">V: 0.89</td>
+    <td style="background:#FDEFA9;">V: 0.89</td>
+    <td style="background:#FDFEFE;">V: 0.86</td>
+    <td style="background:#F9E2F2;">V: 0.78</td>
+    <td style="background:#FDFEFE;">V: 0.87</td>
+    <td style="background:#FDEFA9;">V: 0.84</td>
+    <td style="background:#FDFEFE;">V: 0.91</td>
+  </tr>
+  <tr>
+    <td style="background:#FDFEFE;">M: 0.86</td>
+    <td style="background:#FDEFA9;">M: 0.86</td>
+    <td style="background:#FDFEFE;">M: 0.88</td>
+    <td style="background:#FDEFA9;">NV: 0.89</td>
+    <td style="background:#FDFEFE;">M: 0.91</td>
+    <td style="background:#F9E2F2;">M: 0.88</td>
+    <td style="background:#FDFEFE;">M: 0.92</td>
+    <td style="background:#FDEFA9;">M: 0.96</td>
+    <td style="background:#FDFEFE;">M: 0.96</td>
+  </tr>
+  <tr>
+    <td style="background:#FDFEFE;">E: 0.78</td>
+    <td style="background:#FDEFA9;">E: 0.78</td>
+    <td style="background:#FDFEFE;">E: 0.83</td>
+    <td style="background:#FDEFA9;"> </td>
+    <td style="background:#FDFEFE;">E: 0.78</td>
+    <td style="background:#F9E2F2;">E: 0.70</td>
+    <td style="background:#FDFEFE;">E: 0.80</td>
+    <td style="background:#FDEFA9;">E: 0.77</td>
+    <td style="background:#FDFEFE;">E: 0.85</td>
+  </tr>
+</table>
